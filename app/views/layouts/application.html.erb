@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ApiApp</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <% if user_signed_in? %>
+            <li class="nav-item">
+              <a class="nav-link" href="/profile">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/products">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/histories">History</a>
+            </li>
+        </ul>
+        <%= link_to('Logout', destroy_user_session_path, method: :delete, class: "nav-link", style: "float: right") %>
+        <% end %>
+      </div>
+    </nav>
+    <div class ="container">
+      <%= yield %>
+    </div>
+  </body>
+</html>
