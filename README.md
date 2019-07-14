@@ -9,3 +9,5 @@ rake db:create
 rake db:schema:load
 rake db:seed
 ```
+
+### See ReadmeApi.md for api documentation

@@ -16,7 +16,7 @@ curl -X POST \
   -F password_confirmation=123456
 ```
 + Screenshoot
-![Imgur](https://imgur.com/Fg8H7JF)
+![Imgur](https://i.imgur.com/Fg8H7JF.png)
 
 
 #### Login [POST]
@@ -31,7 +31,7 @@ curl -X POST \
   -F password=123456
 ```
 + Screenshoot
-![Imgur](https://imgur.com/pRvWh3I)
+![Imgur](https://i.imgur.com/pRvWh3I.png)
 
 Note: use auth tokens obtained at login
 #### Profile [GET]
@@ -47,7 +47,7 @@ curl -X GET \
   -H 'cache-control: no-cache'
 ```
 + Screenshoot
-![Imgur](https://imgur.com/3SBb0Gt)
+![Imgur](https://i.imgur.com/3SBb0Gt.png)
 
 #### Product [GET]
 + Endpoint
@@ -60,7 +60,7 @@ curl -X GET \
   -H 'Authorization: a2f38a55b67310e3e2becb90c7046704' \
 ```
 + Screenshoot
-![Imgur](https://imgur.com/8ginzE3)
+![Imgur](https://i.imgur.com/8ginzE3.png)
 
 
 #### Purchasing [POST]
@@ -92,7 +92,7 @@ curl -X POST \
 }'
 ```
 + Screenshoot
-![Imgur](https://imgur.com/Xm19N7b)
+![Imgur](https://i.imgur.com/Xm19N7b.png)
 
 
 #### See History [GET]
@@ -106,7 +106,7 @@ curl -X GET \
   -H 'Authorization: a2f38a55b67310e3e2becb90c7046704' \
 ```
 + Screenshoot
-![Imgur](https://imgur.com/3wf8MFI)
+![Imgur](https://i.imgur.com/3wf8MFI.png)
 
 
 #### Search Products [GET]
@@ -120,4 +120,4 @@ curl -X GET \
   -H 'Authorization: a2f38a55b67310e3e2becb90c7046704' \
 ```
 + Screenshoot
-![Imgur](https://imgur.com/arrAPsb)
+![Imgur](https://i.imgur.com/arrAPsb.png)
